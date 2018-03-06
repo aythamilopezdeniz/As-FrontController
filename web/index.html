@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Front Controler</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="Get" action="FrontServlet">
+            Vista 1<input type="text" name="text1">
+            <input type="hidden" name="command" value="Command1">
+            <input type="submit"><br>
+        </form>
+        <form method="Get" action="FrontServlet">
+            Vista 2<input type="text" name="text2">
+            <input type="hidden" name="command" value="Command2">
+            <input type="submit"><br>
+        </form>
+        <form method="Get" action="FrontServlet">
+            Vista 3<input type="text" name="text3">
+            <input type="hidden" name="command" value="UnknownCommand">
+            <input type="submit"><br>
+        </form>
+    </body>
+</html>
